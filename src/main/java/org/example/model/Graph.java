@@ -29,7 +29,6 @@ public class Graph {
         for (int i = 0; i < nodes.size(); i++) {
             for (int j = 0; j < nodes.size(); j++) {
                 if(nodes.get(i).getId().equals(edges.get(j).getSource())){
-                    //en la variable target se encuentra el id del nodo destino,pero hay que buscar su posicion en el arraylist de nodos
                     int target = findNodeById(edges.get(j));
                     matrix[i][target] = 1;
                 }

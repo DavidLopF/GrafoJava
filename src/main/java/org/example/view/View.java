@@ -19,6 +19,7 @@ public class View {
             for (int j = 0; j < matrix.length; j++) {
                 System.out.print(matrix[i][j]);
             }
+            System.out.println("\n");
         }
     }
 }
